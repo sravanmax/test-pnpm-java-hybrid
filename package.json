@@ -1,0 +1,27 @@
+{
+  "name": "hybrid-pnpm-java-vulnerable",
+  "version": "1.0.0",
+  "description": "Hybrid pnpm JavaScript + Java backend project with vulnerable methods for Veracode SCA scanning",
+  "main": "frontend/src/index.js",
+  "scripts": {
+    "start": "node frontend/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pnpm",
+    "java",
+    "hybrid",
+    "veracode",
+    "vulnerable-methods"
+  ],
+  "author": "Test User",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.18.0",
+    "lodash": "4.17.11",
+    "minimist": "1.2.0"
+  },
+  "devDependencies": {
+    "express": "4.16.2"
+  }
+}

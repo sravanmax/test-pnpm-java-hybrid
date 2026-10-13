@@ -1,0 +1,35 @@
+# Node/pnpm
+node_modules/
+.pnpm-store/
+pnpm-debug.log
+package-lock.json
+yarn.lock
+
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+.classpath
+.project
+.settings/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build/Output
+dist/
+build/
+output.json
+*.tmp
+
+# Environment
+.env
+.env.local
